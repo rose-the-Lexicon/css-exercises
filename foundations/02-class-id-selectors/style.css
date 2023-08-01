@@ -6,3 +6,13 @@ p {
 .three-and-four{
     font-size: 24px;
 }
+
+#only-id{
+    color: #0000F7;
+    font-size: 36px;
+}
+
+#not-only-id{
+    background-color: #47A22A;
+    font-weight: bold;
+}
