@@ -9,6 +9,8 @@ body {
 }
 
 .header {
+  justify-content: space-between;
+  padding: 8px;
   display: flex;
   align-items: center;
   background: white;
@@ -46,5 +48,15 @@ a {
 }
 
 ul {
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+  display: flex;
   list-style-type: none;
+}
+
+.left-side, .right-side {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
