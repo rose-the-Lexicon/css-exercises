@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* changed body to flex column, centered content*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -24,4 +28,40 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/* changed links to have no decorations and be flex */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 12px;
+  padding-left: 0;
+}
+
+/* made header and footer go into corners of screen */
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 24px;
+}
+
+/* centered content*/
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 8px;
+}
+
+/* spaced buttons*/
+.buttons {
+  display: flex;
+  gap: 32px;
 }
